@@ -53,4 +53,46 @@ python SD35.py \
 
 ## 5) Example Output
 
-![Example SD3.5 adapter output](outputs/cat_with_sunglasses.png)
+![Example SD3.5 adapter output](outputs/adapter_a_cat_wearing_sunglasses.png)
+
+## 6) Lightning Version (`SD35_lightning.py`)
+
+This folder also includes a PyTorch Lightning pipeline:
+- `train` for adapter training
+- `generate` for one-prompt inference
+
+If Lightning is missing in your env, install one of:
+
+```bash
+pip install lightning
+```
+
+or
+
+```bash
+pip install pytorch-lightning
+```
+
+Training:
+
+```bash
+python SD35_lightning.py train
+```
+
+Generation with adapter:
+
+```bash
+python SD35_lightning.py generate \
+  --prompt "a cat wearing sunglasses" \
+  --output_dir ./outputs \
+  --steer true
+```
+
+Generation vanilla:
+
+```bash
+python SD35_lightning.py generate \
+  --prompt "a cat wearing sunglasses" \
+  --output_dir ./outputs \
+  --steer false
+```

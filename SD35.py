@@ -71,7 +71,7 @@ def prompt_stub(prompt: str, max_words: int = 8) -> str:
 
 def output_filename_from_prompt(prompt: str, steer: bool) -> str:
     prefix = "adapter" if steer else "vanilla"
-    return f"{prefix}_{prompt_stub(prompt)}.py"
+    return f"{prefix}_{prompt_stub(prompt)}.png"
 
 
 def parse_steer_scales(value) -> list[float]:
