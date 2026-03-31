@@ -15,3 +15,6 @@ checkpoints/
 # keep README example image if desired (currently in outputs/)
 !outputs/
 !outputs/0_pscale0p25_sscale1p0.png
+
+# do not track output logs
+outputs/*.txt
