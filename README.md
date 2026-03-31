@@ -54,6 +54,8 @@ python SD35.py \
 ## 5) Example Output
 
 ![Example SD3.5 adapter output](outputs/adapter_a_cat_wearing_sunglasses.png)
+![Example SD3.5 adapter output](outputs/adapter_a_child_drawing_of_a_monster.png)
+![Example SD3.5 adapter output](outputs/adapter_a_watermelon_playing_baseball.png)
 
 ## 6) Lightning Version (`SD35_lightning.py`)
 
