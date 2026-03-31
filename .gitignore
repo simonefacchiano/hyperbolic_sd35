@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# local outputs/artifacts
+outputs/
+artifacts/
+checkpoints/
+
+# large model/embedding binaries
+*.pt
+*.pth
+
+# keep README example image if desired (currently in outputs/)
+!outputs/
+!outputs/0_pscale0p25_sscale1p0.png
